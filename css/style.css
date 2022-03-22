@@ -2,6 +2,11 @@
   max-width: 1200px;
   min-height: 100vh;
   position: relative;
+  text-align: center;
+}
+
+.body {
+  text-align: center;
 }
 
 .image-container {
@@ -19,14 +24,15 @@
   align-items: center;
 }
 
-.hero-image {
+/* .hero-image {
   width: 700px;
   margin-bottom: 140px;
-}
+} */
 
 .text-header-container {
-  text-align: center;
-  @media (max-width: 850px)
+  @media (max-width: 850px) {
+    text-align: center;
+  }
 
 }
 
